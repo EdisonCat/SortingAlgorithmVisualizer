@@ -1,0 +1,29 @@
+.control-component {
+    background-color: #0f0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-component button {
+    margin: 10px;
+    transition: 0.25s;
+    padding: 5px;
+    border: 1px skyblue solid;
+    border-radius: 30px;
+    background-color: #0f0d0d;
+    color: pink;
+    outline: none;
+    cursor: pointer;
+}
+
+.control-component input {
+    outline: none;
+    cursor: pointer;
+}
+
+.control-component button:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: skyblue;
+}

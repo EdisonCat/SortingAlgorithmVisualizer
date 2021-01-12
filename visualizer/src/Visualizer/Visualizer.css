@@ -1,0 +1,26 @@
+.visualizer {
+    background-color: none;
+    height: 100vh;
+}
+.title {
+    background-color: #0f0d0d;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.sorting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #333;
+    min-height: 92%;
+}
+.values {
+    background-color: skyblue;
+    margin: 2px;
+    width: 4px
+}
+.title a {
+    color: white;
+    text-decoration: none;
+}
